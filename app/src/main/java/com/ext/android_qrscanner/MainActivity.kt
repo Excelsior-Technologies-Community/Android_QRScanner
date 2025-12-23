@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         binding.btnScan.setOnClickListener {
             checkCameraPermission()
         }
+
     }
     private fun checkCameraPermission() {
         when {
